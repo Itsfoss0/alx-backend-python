@@ -16,7 +16,7 @@ __Read or Watch__:
 
 ## Learning objectives
 
-At the end of this project, you are expected to be able to [explain to anyone(https://fs.blog/feynman-learning-technique/), __without the help of Google__:
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), __without the help of Google__:
  - [X] Type annotations in Python 3
  - [X] How you can use type annotations to specify function signatures and variable types
  - [X] Duck typing
