@@ -6,7 +6,7 @@ for adding two numbers
 """
 
 
-def add(a: float: b: float) -> float:
+def add(a: float, b: float) -> float:
     """
     Function to add two numbers together
     Args:
@@ -16,5 +16,5 @@ def add(a: float: b: float) -> float:
         returns a float
    """
     if isinstance(a, float) and isinstance(b, float):
-        return a + b
+        return float(a + b)
     raise TypeError('Enter float values')
