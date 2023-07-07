@@ -11,6 +11,7 @@ from typing import Tuple, Union
 v_type = Union[float, int]
 return_type = Union[str, float]
 
+
 def to_kv(k: str, v: v_type) -> return_type:
     """
     conver k, v to a tuple
