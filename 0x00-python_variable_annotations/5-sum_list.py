@@ -6,9 +6,9 @@ if they are floats
 """
 
 from functools import reduce
+from typing import List
 
-
-def sum_list(input_list: list) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     function to sum list items
     Args:
