@@ -8,7 +8,7 @@ that returns a tuple
 
 from typing import Tuple, Union
 
-v_type = Union[float, int]
+v_type = Union[int, float]
 return_type = Union[str, float]
 
 
