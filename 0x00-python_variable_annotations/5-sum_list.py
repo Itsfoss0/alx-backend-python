@@ -8,6 +8,7 @@ if they are floats
 from functools import reduce
 from typing import List
 
+
 def sum_list(input_list: List[float]) -> float:
     """
     function to sum list items
@@ -22,4 +23,4 @@ def sum_list(input_list: List[float]) -> float:
 
 
 if __name__ == "__main__":
-    print(sum_list([1,2,3,4]))
+    print(sum_list([1, 2, 3, 4]))
