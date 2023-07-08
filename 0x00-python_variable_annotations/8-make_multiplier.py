@@ -23,6 +23,10 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
         Returns:
             Returns a float
         """
-        return multiplier * arg
+        if isinstance(arg, float):
+            return multiplier * arg
+        raise TypeError('expected a float value')
 
+    if not isinstance(multiplier, float):
+        raise TypeError('expected a float value')
     return call_back_func
