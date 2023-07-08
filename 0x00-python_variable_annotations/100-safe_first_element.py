@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+Guess I couldn't have done it without a docstring now could I?
+"""
+
 from typing import Sequence, Any, Union
 
 lst_type = Sequence[Any]
