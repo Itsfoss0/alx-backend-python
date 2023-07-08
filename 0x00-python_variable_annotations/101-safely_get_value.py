@@ -8,7 +8,7 @@ If the key doesn't exist, return a default value
 from typing import TypeVar, Union, Mapping, Any
 
 T = TypeVar('T')
-dict_type = Mapping[str, str]
+dict_type = Mapping
 key_type = Any
 def_type = Union[T, None]
 ret_type = Union[Any, T]
