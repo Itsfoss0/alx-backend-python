@@ -9,7 +9,7 @@ that returns a tuple
 from typing import Tuple, Union
 
 v_type = Union[int, float]
-return_type = Union[str, float]
+return_type = Tuple[str, float]
 
 
 def to_kv(k: str, v: v_type) -> return_type:
