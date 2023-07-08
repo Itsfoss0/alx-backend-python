@@ -16,10 +16,10 @@ Examples:
     # zoom_3x: (12, 12, 12, 72, 72, 72, 91, 91, 91)
 """
 
-from typing import Any, List
+from typing import Any, List, Tuple
 
 
-def zoom_array(lst: List, factor: int = 2) -> List:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     zoomed_in: List = [
         item for item in lst
         for i in range(factor)
