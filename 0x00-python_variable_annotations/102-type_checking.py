@@ -20,6 +20,14 @@ from typing import Any, List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    """"
+    Zoom in an array upto a factor number of times
+    Args:
+        lst (tuple): The array to zoom
+        factor (int): Number of times to zoom
+    Returns:
+        Returns a List
+    """
     zoomed_in: List = [
         item for item in lst
         for i in range(factor)
