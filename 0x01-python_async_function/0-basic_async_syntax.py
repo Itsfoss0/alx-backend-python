@@ -5,16 +5,21 @@ basics of concurent programming in python
 using the asyncio library
 """
 
-from random import random
-from asyncio import sleep
+import random
+import asyncio
 
 
 async def wait_random(max_delay: int = 10) -> float:
     """
-    This coroutine waits for a few seconds
+    This couroutine waits for a random number of seconds
+    and returns the number of seconds waited
     Args:
-        max_delay (int)
+        max_delay (int): Maximum delay
+    Returns:
+        returns a float
     """
-    wait_time = random() * max_delay
-    await sleep(wait_time)
-    return (wait_time)
+    if not isinstance(max_delay, int):
+        raise TypeError('Max wait should be an int')
+    wait_time = random.random() * max_delay
+    await asyncio.sleep(wait_time)
+    return wait_time
