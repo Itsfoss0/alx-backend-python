@@ -21,7 +21,7 @@ def measure_time(n: int, max_delay: int) -> float:
         returns a float
     """
     if isinstance(n, int) and isinstance(max_delay, int):
-        c_time = time()
+        c_time: float = time()
         run(wait_n(n, max_delay))
         return (time() - c_time) / n
     raise TypeError('expected integer values to be passed!')
