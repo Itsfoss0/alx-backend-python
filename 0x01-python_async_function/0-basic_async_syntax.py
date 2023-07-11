@@ -17,4 +17,4 @@ async def wait_random(max_delay: int = 10) -> float:
     """
     wait_time = random() * max_delay
     await sleep(wait_time)
-    return float(wait_time)
+    return (wait_time)
