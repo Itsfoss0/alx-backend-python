@@ -7,4 +7,6 @@ Python is a versatile and powerful programming language that offers a wide range
 ## Roadmap
 [0x01](0x00-python_variable_annotations): Variable Annotations
 [0x02](0x01-python_async_function): Concurrent programming using asyncio
+[0x03](0x02-python_async_comprehension): Asynchronous generators
+
 
